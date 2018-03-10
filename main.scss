@@ -1,0 +1,115 @@
+.maincontainer{
+    width: 700px;
+    height: auto;
+    margin:auto;
+    margin-top:10px;
+    display:flex;
+    flex-direction: column;
+    border:2px solid rgba(0, 0, 0, 0.555);
+    padding:10px;
+    border-radius: 18px 0px 18px 0px;
+    box-shadow: 5px 5px 20px black;
+    font-family: 'Maven Pro', sans-serif;
+
+
+        .box{
+            width: 600px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            padding:10px;
+            font-family: 'Maven Pro', sans-serif;
+
+            .watch{
+                width: 90%;
+                height: auto;
+                border-radius: 30px;
+                margin-right:auto;
+                margin-left:auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding:10px;
+
+            .stwatch{
+                background-color:rgba(121, 121, 121, 0.164);
+                width: 130px;
+                height:110px;
+                padding:20px;
+                border-radius: 10px;
+                font-size:100px;
+                text-align:center;
+                margin: auto;
+                box-shadow: inset 2px 2px 3px black,inset -2px -2px 3px black;
+            }
+        }
+        .bt{
+            display: flex;
+            margin-top:10px;
+            justify-content: space-around;
+
+            .btn{    
+            border:1px solid black;
+            border-radius: 10px;
+            font-size: 18px;
+            padding:5px;
+            outline:none;
+            font-family: 'Maven Pro', sans-serif;
+
+            &:nth-child(1){
+                background-color:rgba(0, 128, 0, 0.5);
+                &:hover{
+                 background-color:lighten(rgba(0, 128, 0, 0.5),50%);   
+                }
+                &:disabled{
+                    background-color:rgba(0, 128, 0, 0.5);
+                    color:rgba(248, 7, 7, 0.972);
+                }
+            }
+            &:nth-child(2){
+                background-color:rgba(255, 0, 0, 0.5);
+                &:hover{
+                    background-color:lighten(rgba(255, 0, 0, 0.5),20%);   
+                   }
+                &:disabled{
+                    background-color:rgba(255, 0, 0, 0.5);
+                    color:rgba(0, 0, 0, 0.972);
+                }
+            }
+            &:nth-child(3){
+                background-color:rgba(0, 0, 255, 0.5);
+                &:hover{
+                    background-color:lighten(rgba(0, 0, 255, 0.5),20%);   
+                   }
+                &:disabled{
+                    background-color:rgba(0, 0, 255, 0.5);
+                    color:rgba(255, 255, 255, 0.972);
+                }
+            }
+            &:nth-child(4){
+                background-color:rgba(15, 228, 199, 0.5);
+                &:hover{
+                    background-color:darken(rgba(15, 228, 199, 0.5),10%);   
+                   }
+                &:disabled{
+                    background-color:rgba(15, 228, 199, 0.5);
+                    color:rgba(0, 0, 0, 0.972);
+                }
+            }
+            }
+        }
+    }
+    .lapchart{
+        width: 150px;
+        margin:20px;
+        height: auto;
+        border-radius: 20px;
+        padding:6px;
+        text-align:center;
+        background-color:rgb(125, 125, 209);
+        box-shadow: inset 2px 2px 20px rgb(129, 128, 128),inset -2px -2px 20px rgb(192, 192, 192);
+        font-family: 'Maven Pro', sans-serif;
+        }
+}

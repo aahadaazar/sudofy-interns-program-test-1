@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+</head>
+
+<body>
+    <div class="maincontainer" id="maincontainer">
+        <div class="box">
+            <div class="watch">
+                <div class="stwatch" id="minutes">00</div>
+                <div class="stwatch" id="seconds">00</div>
+                <div class="stwatch" id="milliseconds">00</div>
+            </div>
+            <div class="bt" id="buttons">
+                <button class="btn" id="stbtn" onclick="start()">START</button>
+                <button class="btn" id="stopbtn" onclick="stop()">STOP</button>
+                <button class="btn" id="rebtn" onclick="reset()">RESET</button>
+                <button class="btn" id="lapbtn" onclick="lap()">LAP</button>
+            </div>
+        </div>
+
+        <!-- <div class="lapchart">HEY</div> -->
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
